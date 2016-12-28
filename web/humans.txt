@@ -1,0 +1,12 @@
+/* TEAM */
+Owner: Johan Hage
+Contact: johan [at] sugarmade.nl
+From: Amsterdam, Netherlands
+
+/* THANX */
+Alexey Kulikov: https://github.com/clops
+
+/* SITE */
+Language: Dutch, English
+Doctype: HTML5
+IDE: PhpStorm, Notepad++
