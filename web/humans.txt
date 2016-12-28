@@ -5,8 +5,10 @@ From: Amsterdam, Netherlands
 
 /* THANX */
 Alexey Kulikov: https://github.com/clops
+Glyphicons: http://glyphicons.com/
 
 /* SITE */
 Language: Dutch, English
+Code: PHP, Bootstrap
 Doctype: HTML5
 IDE: PhpStorm, Notepad++

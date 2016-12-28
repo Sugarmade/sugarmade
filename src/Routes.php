@@ -1,13 +1,12 @@
 <?php
 
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-/** @var Silex\Application $app * */
 $app->get('/', function () use ($app) {
     return $app['twig']->render('index.html.twig', []);
 });
-
-$app->error(function (\Exception $e, $code) use ($app) {
+$app->error(function (\Exception $e, Request $request, $code) use ($app) {
     switch ($code) {
         case 404:
             $message = $app['twig']->render('error404.html.twig');
